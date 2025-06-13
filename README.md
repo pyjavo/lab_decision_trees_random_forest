@@ -79,4 +79,6 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-This will open Jupyter in your browser. From there, you can navigate to the `.ipynb` file and start running the notebook cells.
+5. Open the notebook for Exploratory Data Analysis (EDA):
+
+In your browser, navigate to the notebook file (e.g., `lab_1.ipynb`) to begin the exploratory data analysis. You can inspect the dataset, generate summary statistics, visualize distributions, and uncover patterns within the data.
