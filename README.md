@@ -63,22 +63,22 @@ Follow these steps to install the required dependencies and run the Jupyter note
    git clone git@github.com:pyjavo/lab_decision_trees_random_forest.git
    cd lab_decision_trees_random_forest
    ```
-2. Create a virtual environment
+2. **Create a virtual environment:**
    ```bash
    python -m venv venv
    source venv/bin/activate      # On Windows use: venv\Scripts\activate
    ```
-3. Install the dependencies:
+3. **Install the dependencies:**
 
 ```
 pip install -r requirements.txt
 ```
 
-4. Launch Jupyter Notebook:
+4. **Launch Jupyter Notebook:**
 ```
 jupyter notebook
 ```
 
-5. Open the notebook for Exploratory Data Analysis (EDA):
+5. **Open the notebook for Exploratory Data Analysis (EDA):**
 
 In your browser, navigate to the notebook file (e.g., `lab_1.ipynb`) to begin the exploratory data analysis. You can inspect the dataset, generate summary statistics, visualize distributions, and uncover patterns within the data.
