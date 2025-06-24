@@ -1,20 +1,22 @@
-# Decision trees and random forest analysis
+# Decision Trees and Random Forest: A Practical Guide to Regression and Classification
 
-This is a laboratory made for practicing machine learning techniques in the context of the [Master of Artificial Intelligence at UNIR](https://www.unir.net/ingenieria/master-inteligencia-artificial/).
+This project serves as a hands-on application of core machine learning concepts, with a focus on tree-based models. It was developed as part of the coursework for the [Master's in Artificial Intelligence at UNIR](https://www.unir.net/ingenieria/master-inteligencia-artificial/), and aims to demonstrate a complete pipeline from exploratory data analysis (EDA) to model evaluation.
 
-## Objective:
-Use Decision Trees and Random Forest for a regression and classification problem:
+## Objective
 
-* *Predicting the selling price and price range of the property.*
+Build and evaluate machine learning models using Decision Trees and Random Forests to address both **regression** and **classification** tasks:
 
+- **Goal**: Predict the **selling price** and **price category** of residential properties.
 
-### Dataset:
-- [https://www.kaggle.com/datasets/gpandi007/usa-housing-dataset](https://www.kaggle.com/datasets/gpandi007/usa-housing-dataset)
+---
 
+## Dataset
 
-## Project Summary
+- Source: [USA Housing Dataset - Kaggle](https://www.kaggle.com/datasets/gpandi007/usa-housing-dataset)
 
-This project consists of the following steps:
+---
+
+## Project Workflow
 
 ### 1. Descriptive Data Analysis
 
@@ -38,25 +40,28 @@ This project consists of the following steps:
 
 ### 5. Model Comparison
 
-- Highlight the advantages and disadvantages of each model.
+- Assess model strengths and limitations.
 - Evaluate whether the developed models are effective and useful for the dataset based on the results.
 
 ### 6. Classification Task
 
-- For classification, create three groups based on `SalePrice`:
+- Categorize `SalePrice` into three price ranges:
   - **Group 1**: SalePrice ≤ 100,000
   - **Group 2**: SalePrice between 100,001 and 500,000
   - **Group 3**: SalePrice ≥ 500,001
-- Apply both Decision Tree and Random Forest classifiers.
-- Compare the performance of the models using confusion matrices and accuracy by class.
-- Comment on any challenges with group imbalance or classification difficulty, especially for Group 3.
+- Train classifiers (`DecisionTreeClassifier` and `RandomForestClassifier`) and evaluate with:
+  - Confusion matrices
+  - Classification reports
+  - Class-wise accuracy
+- Analyze performance challenges due to class imbalance
 
-### 7. Additional Comments
+### 7. Final Observations
 
 - Provide any further observations, insights, or recommendations discovered during the analysis process.
 
+---
 
-## Setup and Run Jupyter Notebook Locally
+## Local Setup and Notebook Execution
 
 Follow these steps to install the required dependencies and run the Jupyter notebook on your local machine:
 
@@ -82,6 +87,10 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-5. **Open the notebook for Exploratory Data Analysis (EDA):**
+5. **Run the analysis notebook:**
 
-In your browser, navigate to the notebook file (e.g., `lab_1.ipynb`) to begin the exploratory data analysis. You can inspect the dataset, generate summary statistics, visualize distributions, and uncover patterns within the data.
+Open the notebook file (e.g., `eda_and_tree_based_models.ipynb`) in your browser. The notebook walks through data exploration, model training, and evaluation with clear, reproducible steps and visualizations.
+
+---
+
+This project not only demonstrates applied knowledge in supervised learning with tree-based models but also emphasizes good practices in data preprocessing, model evaluation, and interpretability — key competencies for a Machine Learning Engineer role.
